@@ -1,0 +1,132 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(20deg,black,rgb(56, 3, 52)10%,rgb(34, 15, 15)50%);
+}
+
+
+.main-box{
+    width: 25%;
+    color: white;
+    font-weight: 500px;
+    box-shadow: 0 0 5px gray,inset 0 0 10px black;
+    height: 95vh;
+    border: 1px solid black;
+    display: flex;
+}
+
+.box-one{
+    width: 95%;
+    margin-left: 8px;
+    border: 1px solid black;
+    height: 93vh;
+    margin-top: 5px;
+    background: linear-gradient(20deg,rgb(45, 44, 58) 10%,rgb(58, 52, 52) 40% );
+}
+.box-two{
+
+    width: 95%;
+    margin-left: 5px;
+    margin-top: 10px;
+  
+}
+.b2{
+    background-color: rgba(112, 105, 105, 0.836);
+}
+span{
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+button{
+    width: 46px;
+    height: 31px;
+    border: 2px rgb(216, 14, 14);
+    border-radius: 1px;
+    padding: 0.1px 3px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+button:hover{
+    transform: scale(0.95);
+}
+.box-three{
+    margin-top: 14px;
+    width: 95%;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.b3{
+    margin-left: 2px;
+}
+.bu3{
+    width: 106%;
+    margin-left: -7px;  
+ 
+}
+small{
+    font-size: 10px;
+    margin-top: 3px;
+}
+.box-one-top{
+width: 95%;
+height: 30%;
+margin-left: 5px;
+box-shadow: inset 0 0 10px gray;
+border: 1px solid rgb(34, 32, 32);
+}
+.box-one-middile{
+    height: 80px;
+    width: 93%;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px rgb(17, 8, 8);
+}
+input{
+    height: 70px;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 3px;
+    border: none;
+    box-shadow: 0 0 8px gray;
+    font-size: medium;
+}
+
+#box-one-text{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.b{
+    margin-top: 30px;
+    height: 26px;
+    width: 65px;
+    margin: 5px;
+    background-color: rgb(173, 28, 173);
+    outline: none;
+    color: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#box-one-bottom{
+    width: 95%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 830px) {
+    .main-box{
+        width: 100%;
+    }
+    
+}
+
+
